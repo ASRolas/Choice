@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+.example-spacer {
+    flex: 1 1 auto;
+    
+  }
+
+  .barra{
+    background: blue;
+    
+  }
+
+  #log{
+   
+    margin-left: 88%;
+    position: absolute;
+  }
+
+  body{
+    width: 1368px;
+    margin: 0 auto;
+    
+  }
+  
