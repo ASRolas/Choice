@@ -5,25 +5,126 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 
-.example-spacer {
-    flex: 1 1 auto;
+  .example-spacer {
+    flex:  auto;
+  }
+
+  .barri{
+    
+    height: 50px;
+    margin-bottom: 0px;
+    width: 1080px;
+    background: rgb(150, 7, 7);
+    
+  }
+  .barra{
+    margin-top: 0px;
+    background: rgb(253, 37, 37);
+    height: 80px;
+    width: 1080px;
     
   }
 
-  .barra{
-    background: blue;
+  .barra_links{
+
+    background: white;
+  }
+
+
+  #paragrafo_cabecalho{
+    margin-top: 0;
+
+  }
+  ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 30px;
+    
     
   }
 
   #log{
    
-    margin-left: 88%;
+    margin-left: 90%;
     position: absolute;
+    margin-right: 50px;
   }
 
   body{
     width: 1368px;
     margin: 0 auto;
+    overflow: hidden;
+
     
   }
+  .lateral{
+
+    width: 25%;
+    height: 100%;
+    background: wheat;
+    margin-left: 0;
+    float: left;
+    padding-top: 60px;
+    padding-left: 1.5%;
+  }
+
+  .meio{
+
+    width: 50%;
+    height: 100%;
+    background: wheat;
+    margin-left: 0;
+    float: left;
+  }
+
+.posts{
   
+  width: auto;
+  height: 500px;
+  position: relative;
+  background: rgb(231, 222, 204);
+}
+
+  .direita{
+
+    width: 25%;
+    height: 100%;
+    margin-left: 0;
+    float: left;
+    background: wheat;
+    padding-bottom: 0px;
+  }
+  
+.prince{
+  border-radius: 20px;
+}
+
+#form1{
+  border-radius: 30px;
+}
+
+.btn{
+  border-radius: 30px;
+}
+
+.bl{
+  background-color: brown;
+ 
+  height: 35px;
+  border-radius: 30px;
+  padding-top: 8px;
+  width: 200px;
+   text-indent: 20%;
+}
+
+.links{
+  margin: auto;
+}
+
+.linksr{
+  background-color: blue;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}

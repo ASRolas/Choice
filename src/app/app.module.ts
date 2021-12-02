@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { exportacoes } from './app-routing.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { RegistoComponent } from './components/registo/registo.component';
+import { PerfilRestauranteComponent } from './components/perfil-restaurante/perfil-restaurante.component';
 
 
 
@@ -17,7 +19,9 @@ import {MatIconModule} from '@angular/material/icon';
     exportacoes,
     AppComponent,
     HomeComponent,
-    AutenticacaoComponent
+    AutenticacaoComponent,
+    RegistoComponent,
+    PerfilRestauranteComponent
   ],
   imports: [
     BrowserModule,
