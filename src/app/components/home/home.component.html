@@ -1,4 +1,5 @@
 
+  
   <mat-toolbar class="barri" style="background: rgb(150, 7, 7);">
     <span>My Application</span>
     <i id="log" class='far fa-user-circle' style='font-size:24px; border-radius: 50%; color: azure; '><small style="margin-left: 15px;"><a routerLink="/perfilrestaurante">Perfil</a></small></i>
@@ -39,7 +40,7 @@
 
  <!--div lateral-->
  
- <div class="lateral" >
+ <div class="lateral"(click)="cor()">
  <p class="bl" >Pratos nacionais</p>
  <p class="bl">Lugares mais visitados</p>
  <p class="bl">Pratos recomendados</p>
@@ -49,7 +50,7 @@
  <!--div do meio-->
  <div class="meio">
   <div class="posts">
-    <h2><a href="#" >Nome do Estaelecimento</a></h2>
+    <h2><a href="#" >Nome do Estabelecimento</a></h2>
 
     <ul class="linksr">
       <li><a href="#">amei</a></li>
@@ -65,5 +66,7 @@
 <div class="direita">
   a
 </div>
+
+<script src="../../static/geral.js"></script>
 
 

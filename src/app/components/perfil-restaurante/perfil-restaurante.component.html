@@ -6,7 +6,7 @@
  
   </mat-toolbar>
 
-
+<!--
   <mat-toolbar class="barra" >
   <h1>Choice</h1>
   <span class="example-spacer" >
@@ -27,29 +27,37 @@
   </button>
  
 </mat-toolbar>
+-->
 <!--barra dos menus-->
 <mat-toolbar class="barra_links">
   <ul class="links">
-    <li><small>coisa1</small></li>
+    <li><i class="fas fa-camera-retro" (click)="abrirPub()"></i></li>
     <li><small>coisa2</small></li>
     <li><small>coisa3</small></li>
-    <li><small>menu online</small></li>
+    <li><i class="fas fa-clipboard-list"></i></li>
   </ul>
 </mat-toolbar>
 
  <!--div lateral-->
  
- <div class="lateral" >
- <p class="bl" >Pratos nacionais</p>
- <p class="bl">Lugares mais visitados</p>
- <p class="bl">Pratos recomendados</p>
- <p class="bl" style="width: 300px;">Quero aprender gastronomia</p>
+ <div class="lateral"  >
+     <div class="circulo_perfil" style=" margin: auto; width: 200px; height: 200px; margin-bottom: 30px;"></div>
+     <h1 style="color: red;margin: auto; font-size: x-large;height: 40px; font-weight: 600px; width: 80px; margin-bottom: 10px; "><i>KFC</i></h1>
+     <h3 style="color: red;margin: auto;height: 40px; width: 200px; margin-bottom: 10px; "><i>It's finger licking good!</i></h3>
+     <hr style="width: 80%; margin: auto;">
+     <h3 style="color: rgb(153, 146, 146);margin: auto;height: 40px; width: 200px; margin-bottom: 3px; margin-top: 5px; "><i>Restaurante</i></h3>
+     <hr style="width: 80%; margin: auto; margin-bottom: 0;">
+     <h5 style="color: rgb(153, 146, 146);margin: auto;height: 25px; width: 200px; margin-top: 5px; "><i>Email: kfc@gmail.com</i></h5>
+     <h5 style="color: rgb(153, 146, 146);margin: auto;height: 25px; width: 200px; margin-bottom: 3px; "><i>Cell: +258 845353231</i></h5>
+     <hr style="width: 80%; margin: auto;">
+     <h5 style="color: rgb(153, 146, 146);margin: auto;height: 25px; width: 200px; margin-bottom: 3px; margin-top: 5px; "><i>Av. Acordos de Lusaka, No.124</i></h5>
+ 
 </div>
 
  <!--div do meio-->
  <div class="meio">
   <div class="posts">
-    <h2><a href="#" >Nome do Estaelecimento</a></h2>
+    <h2><a href="#" >Nome do Estabelecimento</a></h2>
 
     <ul class="linksr">
       <li><a href="#">amei</a></li>
@@ -59,12 +67,23 @@
       <li><a href="#">visite-nos</a></li>
     </ul>
   </div>
+
+  <div class="publicacao">
+    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: xx-large; margin: auto;width: 250px; margin-top: 10px; color: gray;">Nova publicacao</h1>
+    <hr style="margin-top: 10px;">
+    <br>
+     <div class="filechooser" style="width: 90%; height: 200px; margin: auto; background: rgb(230, 225, 217); border-radius: 8px; margin-top: 30px;"></div>
+     <input type="text" id="defaultForm-email" class="form-control" placeholder="Adicione uma legenda..." style="width: 85%; font-size: large; margin: auto;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: gray; margin-top: 10px;"><br>
+     <button type="button" class="btn btn-primary" style="width: 85%; height: 30px;  margin: auto; margin-left: 40px; font-size: small; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">publicar</button>
+   </div>
+   
 </div>
 
 <!--div da direita-->
 <div class="direita">
   a
 </div>
+
 
 
 

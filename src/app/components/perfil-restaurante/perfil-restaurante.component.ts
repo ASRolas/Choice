@@ -12,4 +12,11 @@ export class PerfilRestauranteComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  abrirPub(){
+
+  
+    $(".publicacao").fadeIn("quick");
+
+  }
+
 }

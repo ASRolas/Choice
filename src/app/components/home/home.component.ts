@@ -12,4 +12,11 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  cor(){
+
+  
+    $(".lateral").css("background","white");
+
+  }
+
 }
