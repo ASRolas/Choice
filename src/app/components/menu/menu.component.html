@@ -1,0 +1,74 @@
+
+  <mat-toolbar class="barri" style="background: rgb(150, 7, 7);">
+    <small style="color:rgb(173, 172, 172); font-size:25px; cursor:pointer;">Choice</small>
+    <i id="log" class='far fa-user-circle' style='font-size:24px; border-radius: 50%; color: azure; '><small style="margin-left: 15px;">Perfil</small></i>
+    
+ 
+  </mat-toolbar>
+
+
+<!--barra dos menus-->
+<mat-toolbar class="barra_links">
+  <ul class="links">
+
+    <li><i class="far fa-calendar-plus" (click)="abrirPub()" title="Add novo item " style="color: rgb(150, 7, 7);"></i></li>
+    <i class="fas fa-video" title="Videos" style="color: rgb(150, 7, 7);" ></i>  
+    <li><i class="fas fa-clipboard-list" title="Menu online" style="color: rgb(150, 7, 7);"></i></li>
+
+  </ul>
+</mat-toolbar>
+
+ <!--div lateral-->
+ 
+ <div class="lateral" style="width: 10%; background: white;"  >
+    
+</div>
+
+<div class="meio"  style="background: white; width: 80%; align-content: center; display: inline-block; overflow: scroll; padding-left: 50px; border-top: 0.5px solid rgb(150, 7, 7);" >
+    <div class="item_menu" id="item1" style="width: 230px; height: 230px; border-radius: 50%;float: left; margin: 50px; "></div>
+    <div class="item_menu" id="item2" style="width: 230px; height: 230px; border-radius: 50%;  float: left;margin: 50px;"></div>
+    <div class="item_menu" id="item4" style="width: 230px; height: 230px; border-radius: 50%; float: left;margin: 50px;"></div>
+    <div class="item_menu" id="item5" style="width: 230px; height: 230px; border-radius: 50%; float: left;margin: 50px;"></div>
+    <div class="item_menu" id="item6" style="width: 230px; height: 230px; border-radius: 50%; float: left;margin: 50px;"></div>
+    <div class="item_menu" id="item7" style="width: 230px; height: 230px; border-radius: 50%; float: left;margin: 50px;"></div>
+    <div class="item_menu" id="item8" style="width: 230px; height: 230px; border-radius: 50%; float: left;margin: 50px;"></div>
+    <div class="item_menu" id="item9" style="width: 230px; height: 230px; border-radius: 50%; float: left;margin: 50px;"></div>
+
+</div>
+
+<div class="direita" style=" width: 10%; background: white;" >
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="publicacao"><!--div de publicacoes, os aparece ao clicar o icone de foto no perfil de restaurante-->
+    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: xx-large; margin: auto;width: 250px; margin-top: 20px; color: rgb(150, 7, 7); text-indent: 30%;">Novo item</h1>
+    <i  class="fas fa-times" style="height: 50px;  position: absolute; right: 20px; top: 10px;  color: rgb(158, 156, 156);"  (click)="fecharPub()" ></i>
+    <hr style="margin-top: 10px;">
+    <br>
+    <div class="filechooser" style="width: 90%; height: 200px; margin: auto; background: rgb(230, 225, 217); border-radius: 8px; margin-top: 30px;" (click)="upload()"></div>
+    <input type="text" id="defaultForm-email" class="form-control" placeholder="Descricão" style="width: 85%; font-size: large; margin: auto;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: gray; margin-top: 10px;"><br>
+    <button type="button" class="btn btn-primary" style="width: 85%; height: 30px;  margin: auto; margin-left: 40px; font-size: small; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; background: rgb(150, 7, 7);;">Adicionar</button>
+ </div>
+
+ <input type="file" id="myfile" name="myfile" multiple style="display: none;">

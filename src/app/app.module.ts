@@ -11,6 +11,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { RegistoComponent } from './components/registo/registo.component';
 import { PerfilRestauranteComponent } from './components/perfil-restaurante/perfil-restaurante.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 
@@ -21,7 +22,8 @@ import { PerfilRestauranteComponent } from './components/perfil-restaurante/perf
     HomeComponent,
     AutenticacaoComponent,
     RegistoComponent,
-    PerfilRestauranteComponent
+    PerfilRestauranteComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

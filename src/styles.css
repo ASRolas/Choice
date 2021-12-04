@@ -19,7 +19,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   }
   .barra{
     margin-top: 0px;
-    background: rgb(253, 37, 37);
+    
     height: 80px;
     width: 1080px;
     
@@ -38,7 +38,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   ul li{
     display: inline;
     text-decoration: none;
-    margin: 30px;
+    margin: 100px;
     
     
   }
@@ -48,6 +48,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     margin-left: 90%;
     position: absolute;
     margin-right: 50px;
+    color: white;
   }
 
   body{
@@ -61,7 +62,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
     width: 25%;
     height: 100%;
-    background: wheat;
+    background: white;
     margin-left: 0;
     float: left;
     padding-top: 60px;
@@ -91,7 +92,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 100%;
     margin-left: 0;
     float: left;
-    background: wheat;
+    background: white;
     padding-bottom: 0px;
   }
   
@@ -108,7 +109,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .bl{
-  background-color: brown;
+  background-color: rgb(238, 228, 228);
  
   height: 35px;
   border-radius: 30px;
@@ -145,4 +146,79 @@ left:450px;
 top:20%;
 display: none;
 
+
 }
+
+.perfilinho{
+  background: url('app/imagens/kfc.jpg');
+  
+  padding: auto;
+  margin-left: 20px;
+}
+
+#item1{
+  background-image: url('app/components/menu/imagens/burger.jpg');
+}
+
+#item2{
+
+  background: url('app/components/menu/imagens/hotdog1.png');
+}
+
+#item3{
+
+  background: url('app/components/menu/imagens/pizza1.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#item3{
+
+  background: url('app/components/menu/imagens/batata1.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#item4{
+
+  background: url('app/components/menu/imagens/fritos1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#item5{
+
+  background: url('app/components/menu/imagens/kfc1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#item6{
+
+  background: url('app/components/menu/imagens/lasanha1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#item7{
+
+  background: url('app/components/menu/imagens/frango.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#item8{
+
+  background: url('app/components/menu/imagens/salada1.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#item9{
+
+  background: url('app/components/menu/imagens/salada.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

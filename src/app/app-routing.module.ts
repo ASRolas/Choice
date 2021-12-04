@@ -4,12 +4,14 @@ import { HomeComponent } from './components/home/home.component';
 import { AutenticacaoComponent } from './components/autenticacao/autenticacao.component';
 import { RegistoComponent } from './components/registo/registo.component';
 import { PerfilRestauranteComponent } from './components/perfil-restaurante/perfil-restaurante.component';
+import { MenuComponent } from './components/menu/menu.component';
 const routes: Routes = [
   
   {path:'home', component: HomeComponent},
   {path:'autenticacao', component:AutenticacaoComponent},
   {path:'registo', component:RegistoComponent},
-  {path: 'perfilrestaurante', component:PerfilRestauranteComponent}
+  {path: 'perfilrestaurante', component:PerfilRestauranteComponent},
+  {path: 'menu',component:MenuComponent}
 
 ];
 
@@ -19,4 +21,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const exportacoes=[HomeComponent,AutenticacaoComponent,RegistoComponent,PerfilRestauranteComponent]
+export const exportacoes=[HomeComponent,AutenticacaoComponent,RegistoComponent,PerfilRestauranteComponent,MenuComponent]

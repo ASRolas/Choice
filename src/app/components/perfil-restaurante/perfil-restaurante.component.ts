@@ -13,10 +13,21 @@ export class PerfilRestauranteComponent implements OnInit {
   }
 
   abrirPub(){
-
-  
+    
     $(".publicacao").fadeIn("quick");
 
   }
+  fecharPub(){
+    
+    $(".publicacao").fadeOut("quick");
+
+  }
+  upload(){
+
+    $("#myfile").click();
+    
+    
+  }
+
 
 }
