@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  imagem=`<img src="assets/comida1.jpg" style="height:100px; width:200px">`
   constructor() { }
+  
 
   ngOnInit(): void {
   }
@@ -61,6 +63,16 @@ export class HomeComponent implements OnInit {
       $("#bl4").css("color","gray");
     });
 
+     //--------------------------
+     $("#bl5").mouseover(function(){
+      $("#bl5").css("background","rgb(156, 26, 17)"); 
+      $("#bl5").css("color","white");
+    });
+    $("#bl5").mouseout(function(){
+      $("#bl5").css("background","rgb(238, 228, 228)"); 
+      $("#bl5").css("color","gray");
+    });
+
      
     //--------------------------
     $("#watermark").mouseover(function(){
@@ -75,6 +87,74 @@ export class HomeComponent implements OnInit {
     //--------------------------
     
     
+
+  }
+
+  mostrarPratosAcessiveis(){
+     
+    
+
+    
+    $("#bl5").mouseover(function(){
+
+      $(".pratos_acessiveis").show();
+    });
+    $("#bl5").mouseout(function(){
+      $(".pratos_acessiveis").hide();
+    });
+
+
+  }
+
+  mostrarPratosNacionais(){
+     
+    
+
+    
+    $("#bl1").mouseover(function(){
+
+      $(".pratos_nacionais").show();
+    });
+    $("#bl1").mouseout(function(){
+      $(".pratos_nacionais").hide();
+    });
+
+    $(".pratos_nacionais").hide();
+
+
+
+
+  }
+ 
+
+  
+  slide1(){
+
+     let contador=6;
+
+      function delay(ms: number) {
+        return new Promise( resolve => setTimeout(resolve, ms) );
+      }
+
+    
+
+      $("#1").fadeIn("slow");
+      delay(3000)
+      $("#1").fadeOut("slow");
+      delay(6000)
+      $("#2").fadeIn("slow")
+      delay(3000)
+      $("#2").fadeOut("slow");
+      delay(3000)
+      $("#3").fadeIn("slow")
+      delay(3000)
+      $("#3").fadeOut("slow");
+      delay(3000)
+      
+
+
+   
+
 
   }
   

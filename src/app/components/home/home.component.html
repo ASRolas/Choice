@@ -44,9 +44,10 @@
  <!--div lateral-->
  
  <div class="lateral"(click)="cor()" >
- <p class="bl" id="bl1" (mouseover)="pairar() " >Pratos nacionais</p>
+ <p class="bl" id="bl1" (mouseover)="pairar();mostrarPratosNacionais()" >Pratos nacionais</p>
  <p class="bl" id="bl2" (mouseover)="pairar()">Lugares mais visitados</p>
  <p class="bl" id="bl3" (mouseover)="pairar()">Pratos recomendados</p>
+ <p class="bl" id="bl5" (mouseover)="pairar();mostrarPratosAcessiveis()" style="width: 230px;" >Pratos mais acessiveis</p>
  <p class="bl" id="bl4" (mouseover)="pairar()" style="width: 300px; text-indent: 10%;">Quero aprender gastronomia</p>
 </div>
 
@@ -60,7 +61,7 @@
 
     
     
-    <video id="vid" controls autoplay height="70%" width="100%" src="../../imagens/mbenga.mp4" style="margin-bottom:0; margin-top: 10px;" type="video/mp4"></video>
+    <video id="vid" controls height="70%" width="100%" src="assets/imagens/mbenga.mp4" style="margin-bottom:0; margin-top: 10px;" type="video/mp4"></video>
     
     <ul class="linksr">
       <li><a href="#">amei</a></li>
@@ -77,7 +78,7 @@
 
   
   
-  <video id="vid" controls autoplay height="70%" width="100%" src="../../imagens/mbenga.mp4" style="margin-bottom:0; margin-top: 10px;" type="video/mp4"></video>
+  <video id="vid" controls  height="70%" width="100%" src="assets/imagens/spirit.mp4" style="margin-bottom:0; margin-top: 10px;" type="video/mp4"></video>
   
   <ul class="linksr">
     <li><a href="#">amei</a></li>
@@ -92,7 +93,61 @@
 
 <!--div da direita-->
 <div class="direita">
-  a
+
+  <div class="pratos_acessiveis" style=" width: 100%; height: 468px;padding-top: 5px; display: inline-block; padding-left: 4px;">
+
+        <div  class="prato" id="prato1" style="width: 200px; height: 100px; margin: 5px; margin-top: 5px; margin-bottom: 10px; float: left;">
+        
+        </div>
+        <div class="prato" id="prato2" style="width: 110px; height: 200px; margin-left: 0; margin-right: 12px; margin-top: 5px; margin-bottom: 10px; float: right;">
+          
+        </div>
+        
+        <div class="prato" id="prato3" style="width: 200px; height: 200px; margin: 5px; margin-top: 5px; margin-bottom: 10px;  float: left;">
+           
+        </div>
+
+        <div class="prato" id="prato4" style="width: 110px; height: 100px; margin: 5px; margin-top: 5px; margin-bottom: 10px;  float: left;">
+        
+        </div>
+        
+        <div class="prato" id="prato5" style="width: 110px; height: 115px; margin: 5px; margin-top: 5px; margin-bottom: 10px;  float: left;">
+        
+        </div>
+
+        <div class="prato" id="prato6" style="width: 200px; height: 115px; margin: 5px; margin-top: 5px; margin-bottom: 10px;  float: left;">
+          
+        </div>
+        
+  </div>
+
+  <div class="pratos_nacionais" style=" width: 100%; height: 468px;padding-top: 5px; display: inline-block; padding-left: 4px;">
+
+    <div  class="prato" id="nacional1" style="width: 200px; height: 100px; margin: 5px; margin-top: 5px; margin-bottom: 10px; float: left;">
+    
+    </div>
+    <div class="prato" id="nacional2" style="width: 110px; height: 200px; margin-left: 0; margin-right: 12px; margin-top: 5px; margin-bottom: 10px; float: right;">
+      
+    </div>
+    
+    <div class="prato" id="nacional3" style="width: 200px; height: 200px; margin: 5px; margin-top: 5px; margin-bottom: 10px;  float: left;">
+       
+    </div>
+
+    <div class="prato" id="nacional4" style="width: 110px; height: 100px; margin: 5px; margin-top: 5px; margin-bottom: 10px;  float: left;">
+    
+    </div>
+    
+    <div class="prato" id="nacional5" style="width: 110px; height: 115px; margin: 5px; margin-top: 5px; margin-bottom: 10px;  float: left;">
+    
+    </div>
+
+    <div class="prato" id="nacional6" style="width: 200px; height: 115px; margin: 5px; margin-top: 5px; margin-bottom: 10px;  float: left;">
+      
+    </div>
+    
+</div>
+
 </div>
 
 <script src="../../static/geral.js"></script>

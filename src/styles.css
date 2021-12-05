@@ -222,9 +222,89 @@ display: none;
   background-position: center;
 }
 
+
+/*----------------------paratos nacionais-----------------------------------------*/
+
+
+#nacional1{
+  background-image: url('assets/imagens/mboa.jpg');
+}
+
+#nacional2{
+
+  background: url('assets/imagens/espinafresalteado.jpg');
+}
+
+#nacional3{
+
+  background: url('assets/imagens/moqueca.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#nacional4{
+
+  background: url('assets/imagens/abobora.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#nacional5{
+
+  background: url('assets/imagens/peixecomboa.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#nacional6{
+
+  background: url('assets/imagens/mboa2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
 .info{
 
   color: #d48585;
   /*color: rgb(153, 146, 146);*/
+}
+
+#prato1{
+  background: url("app/components/menu/imagens/lasanha1.png");
+  background-position: 50%;
+}
+
+#prato2{
+  background: url("assets/imagens/kfc1.jpg");
+  background-position: 50%;
+}
+
+#prato3{
+  background: url("assets/imagens/salada.jpg");
+  background-position: 50%;
+}
+
+#prato4{
+  background: url("assets/imagens/cupcake.jpg");
+  background-position: 50%;
+}
+
+#prato5{
+  background: url("assets/imagens/steak.jpg");
+  background-position: 50%;
+}
+
+#prato6{
+  background: url("assets/imagens1/comida4.jpg");
+  background-position: 50%;
 }
 
