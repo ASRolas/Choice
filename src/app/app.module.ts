@@ -12,6 +12,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { RegistoComponent } from './components/registo/registo.component';
 import { PerfilRestauranteComponent } from './components/perfil-restaurante/perfil-restaurante.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { SimulatorComponent } from './components/simulator/simulator.component';
 
 
 
@@ -23,7 +24,8 @@ import { MenuComponent } from './components/menu/menu.component';
     AutenticacaoComponent,
     RegistoComponent,
     PerfilRestauranteComponent,
-    MenuComponent
+    MenuComponent,
+    SimulatorComponent
   ],
   imports: [
     BrowserModule,

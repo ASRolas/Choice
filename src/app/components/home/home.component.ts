@@ -24,6 +24,7 @@ export class HomeComponent implements OnInit {
       pairar(){
 
         $("#bl1").mouseover(function(){
+          $(".direita").css("background","white");
           $("#bl1").css("background","rgb(156, 26, 17)"); 
           $("#bl1").css("color","white");
         });
@@ -63,6 +64,8 @@ export class HomeComponent implements OnInit {
 
         //--------------------------
         $("#bl5").mouseover(function(){
+          
+          $(".direita").css("background","rgb(148, 17, 17)");
           $("#bl5").css("background","rgb(156, 26, 17)"); 
           $("#bl5").css("color","white");
         });

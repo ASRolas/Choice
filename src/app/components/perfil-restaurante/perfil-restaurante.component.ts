@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { novaPublicacao } from '../simulator/simulator.component';
 
 @Component({
   selector: 'app-perfil-restaurante',
@@ -13,16 +14,22 @@ export class PerfilRestauranteComponent implements OnInit {
   }
 
   abrirPub(){
-    
     $(".publicacao").fadeIn("quick");
-
   }
   fecharPub(){
     
     $(".publicacao").fadeOut("quick");
 
   }
-  upload(){
+
+  addPub(){
+    
+    $(".publicacao").css("z-idex","40");
+    $(".posts").css("z-idex","10");
+    $(".publicacao").fadeOut("fast");
+    $(".meio").append(novaPublicacao);
+  }
+  upload(){ //é o filechooser
 
     $("#myfile").click();
     
