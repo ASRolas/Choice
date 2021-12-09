@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -9,7 +10,7 @@ export class HomeComponent implements OnInit {
 
       imagem=`<img src="assets/comida1.jpg" style="height:100px; width:200px">`
       constructor() { }
-      
+     
 
       ngOnInit(): void {
       }
@@ -65,7 +66,7 @@ export class HomeComponent implements OnInit {
         //--------------------------
         $("#bl5").mouseover(function(){
           
-          $(".direita").css("background","rgb(148, 17, 17)");
+          //$(".direita").css("background","rgb(148, 17, 17)");
           $("#bl5").css("background","rgb(156, 26, 17)"); 
           $("#bl5").css("color","white");
         });
@@ -103,26 +104,45 @@ export class HomeComponent implements OnInit {
       mostrarPratosAcessiveis(){
         
         $("#bl5").mouseover(function(){
-          $(".pratos_acessiveis").show();
+          $(".pratos_nacionais").hide();
+          $(".lugares").hide();
+          $(".pratos_acessiveis").fadeIn("slow");
         });
 
         $("#bl5").mouseout(function(){
           $(".pratos_acessiveis").hide();
         });
+
+        
       }
 
       mostrarPratosNacionais(){
         
         $("#bl1").mouseover(function(){
-
-          $(".pratos_nacionais").show();
+          $(".lugares").hide();
+          $(".pratos_acessiveis").hide();
+          $(".pratos_nacionais").fadeIn("slow");
         });
 
         $("#bl1").mouseout(function(){
           $(".pratos_nacionais").hide();
         });
 
-        $(".pratos_nacionais").hide();
+      }
+
+      mostrarLugares(){
+        
+        $("#bl2").mouseover(function(){
+
+          $(".pratos_acessiveis").hide();
+          $(".pratos_nacionais").hide();
+          $(".lugares").fadeIn("slow");
+        });
+
+        $("#bl2").mouseout(function(){
+          $(".lugares").hide();
+        });
+
       }
     
       slide1(){

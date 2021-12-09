@@ -310,3 +310,20 @@ display: none;
   background-position: 50%;
 }
 
+#lugar1{
+  background: url('assets/imagens/lugares/images.jpg');
+}
+
+#lugar2{
+
+  background: url('assets/imagens/lugares/spazio.jpg');
+}
+#lugar3{
+
+  background: url('assets/imagens/lugares/waterfront.jpg');
+}
+
+
+
+
+
